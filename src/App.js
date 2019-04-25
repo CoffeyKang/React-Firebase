@@ -1,20 +1,16 @@
 import React from 'react';
 import './App.css';
-import Usurvey from "./Usurvey";
+import Authen from './Authen'
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <header>
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      
+      <Authen />
 
-        <Usurvey />
-        
-      </header>
     </div>
   );
 }
